@@ -105,16 +105,20 @@ span {
 }
 
 .container {
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     margin: auto;
-    padding: 100px;
+    padding: 50px;
 }
 
+/*NEXT JOB TO DO: make sure that responsive layout is aligning everything in the middle on the mobile device */
+
 .col {
+    align-items: center;
 /*    background-color: red;*/
 }
 
 .col2 {
+    align-items: center;
 /*    background-color: green;*/
 }
 
