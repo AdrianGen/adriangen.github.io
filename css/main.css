@@ -44,7 +44,7 @@ hr {
     display: block;
     height: 1px;
     border: 0;
-    border-top: 1px solid #ccc;
+    border-top: 1px solid #ececec;
     margin: 1em 0;
     padding: 0;
 }
@@ -96,14 +96,71 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+div {
+
+}
+
+span {
+
+}
+
+.container {
+    border: 1px solid black;
+    margin: auto;
+    padding: 100px;
+}
+
+.col {
+/*    background-color: red;*/
+}
+
+.col2 {
+/*    background-color: green;*/
+}
+
+.profilepic {
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
+.firstName {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+    text-transform: lowercase;
+    font-size: 67px;
+    color: #939393;
+    font-weight: 300;
+    line-height: 100%;
+}
 
+.lastName {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+    text-transform: uppercase;
+    font-size: 67px;
+    color: #f8bb10;
+    font-weight: 700;
+    line-height: 100%;
+    margin-bottom: 20px;
+}
 
-
-
-
-
+.jobTitle {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+    font-size: 21px;
+    color: #939393;
+    font-weight: 300;
+    line-height: 1.75;
+    margin-bottom: 30px;
+}
 
 
 
