@@ -96,6 +96,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    margin-top: 150px;
+}
+
 div {
 
 }
@@ -105,21 +109,21 @@ span {
 }
 
 .container {
-    /*border: 1px solid black;*/
-    margin: auto;
-    padding: 50px;
+    border: 1px solid black; /*to be deleted later*/;
 }
 
 /*NEXT JOB TO DO: make sure that responsive layout is aligning everything in the middle on the mobile device */
 
+/**/
+
 .col {
     align-items: center;
-/*    background-color: red;*/
+    border: 1px solid black; /*to be deleted later*/
 }
 
 .col2 {
     align-items: center;
-/*    background-color: green;*/
+    border: 1px solid black; /*to be deleted later*/
 }
 
 .profilepic {
@@ -163,9 +167,39 @@ span {
     color: #939393;
     font-weight: 300;
     line-height: 1.75;
-    margin-bottom: 30px;
 }
 
+/*Social Media Icons*/
+
+.socialMediaIcons {
+ 
+
+}
+
+li {
+    display: flex;
+    float: right;
+    padding: 3px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    background-color: #ededed;
+    border-radius: 3px;
+/*    border: 2px solid;*/
+}
+
+a img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 25%;
+    padding: 0;
+    border: none;
+    fill: currentColor;
+}
 
 
 
