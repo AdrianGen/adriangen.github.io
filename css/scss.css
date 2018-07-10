@@ -1,0 +1,11 @@
+body {
+  background-color: white; }
+  body p {
+    background-color: red; }
+
+h1 {
+  background-color: white; }
+  h1 div {
+    background-color: red; }
+
+/*# sourceMappingURL=scss.css.map */

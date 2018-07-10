@@ -96,25 +96,15 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/*body*/
+
 body {
     margin-top: 150px;
-}
-
-div {
-
-}
-
-span {
-
 }
 
 .container {
     border: 1px solid black; /*to be deleted later*/;
 }
-
-/*NEXT JOB TO DO: make sure that responsive layout is aligning everything in the middle on the mobile device */
-
-/**/
 
 .col {
     align-items: center;
@@ -126,6 +116,12 @@ span {
     border: 1px solid black; /*to be deleted later*/
 }
 
+
+
+/*NEXT JOB TO DO: make sure that responsive layout is aligning everything in the middle on the mobile device */
+
+/*Profile/Header*/
+
 .profilepic {
     width: 235px;
     height: 235px;
@@ -134,7 +130,6 @@ span {
     margin-left: auto;
     margin-right: auto;
 }
-
 
 .firstName {
     display: block;
@@ -171,25 +166,19 @@ span {
 
 /*Social Media Icons*/
 
-.socialMediaIcons {
- 
-
-}
-
 li {
     display: flex;
     float: right;
     padding: 3px;
 }
 
-a {
+ul a {
     display: block;
     text-align: center;
     height: 40px;
     width: 40px;
     background-color: #ededed;
     border-radius: 3px;
-/*    border: 2px solid;*/
 }
 
 a img {
@@ -198,12 +187,41 @@ a img {
     margin-top: 25%;
     padding: 0;
     border: none;
-    fill: currentColor;
+    opacity: 0.6;
 }
 
+/*Contact information*/
 
+h4 {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+    font-size: 14px;
+    color: #727272;
+    font-weight: bold;
+}
 
+p {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+    font-size: 14px;
+    color: #939393;
+    font-weight: normal;
+}
 
+.col4 {
+    text-align: left;
+    display: flex;
+/*    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;*/
+    -webkit-justify-content: space-between;
+            justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid black; /*to be deleted later*/
+}
 
 
 
