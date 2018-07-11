@@ -197,17 +197,7 @@ a img {
     opacity: 0.6;
 }
 
-/*Contact information*/
-
-h4 {
-    display: block;
-    font-family: 'Lato', sans-serif;
-    letter-spacing: normal;
-    font-size: 14px;
-    color: #727272;
-    font-weight: bold;
-}
-
+/*Text*/
 p {
     display: block;
     font-family: 'Lato', sans-serif;
@@ -216,21 +206,6 @@ p {
     color: #939393;
     font-weight: normal;
 }
-
-.col4 {
-    text-align: left;
-    display: flex;
-/*    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;*/
-    -webkit-justify-content: space-between;
-            justify-content: space-between;
-    align-items: center;
-    padding: 40px;
-    border: 1px solid black; /*to be deleted later*/
-}
-
-/*Left Bar*/
 
 h2 {
     display: block;
@@ -241,6 +216,28 @@ h2 {
     color: #727272;
     font-weight: bold;
 }
+
+h4 {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: normal;
+    font-size: 14px;
+    color: #727272;
+    font-weight: bold;
+}
+
+/*Contact Information*/
+
+.col4 {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    border: 1px solid black; /*to be deleted later*/
+}
+
+/*Left Bar*/
 
 .leftCol {
     text-align: right;
@@ -254,17 +251,29 @@ h2 {
 
 /*Expertise*/
 .expertiseBlock {
-    
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 .expertiseNumber {
     color: #f8bb10;
     font-size: 16px;
     font-weight: bold;
+    text-align: center;
+    width: 20px;
+    height: 20px;
 }
 
 .expertiseHead {
 
+}
+
+.expertise {
+    display: block;
+    padding: 20px;
+    border: 1px solid black;
 }
 
 
