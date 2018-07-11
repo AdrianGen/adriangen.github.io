@@ -108,10 +108,17 @@ body {
 
 .col {
     align-items: center;
+    padding: 40px;
     border: 1px solid black; /*to be deleted later*/
 }
 
 .col2 {
+    align-items: center;
+    padding: 40px;
+    border: 1px solid black; /*to be deleted later*/
+}
+
+.bar {
     align-items: center;
     border: 1px solid black; /*to be deleted later*/
 }
@@ -219,9 +226,50 @@ p {
     -webkit-justify-content: space-between;
             justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 40px;
     border: 1px solid black; /*to be deleted later*/
 }
+
+/*Left Bar*/
+
+h2 {
+    display: block;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: normal;
+    font-size: 16px;
+    color: #727272;
+    font-weight: bold;
+}
+
+.leftCol {
+    text-align: right;
+}
+
+/*All about me.*/
+
+.allAboutMe {
+    font-size: 17px;
+}
+
+/*Expertise*/
+.expertiseBlock {
+    
+}
+
+.expertiseNumber {
+    color: #f8bb10;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.expertiseHead {
+
+}
+
+
+
+
 
 
 
