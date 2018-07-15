@@ -293,13 +293,27 @@ h4 {
     margin-bottom: 10px;
 }
 
-/*Skills*/
+/*Skills and progress bars*/
 
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid black;
+}
 
-
-
-
-
+.progressBar {
+    border: 1px solid #ececec;
+    background-color: #ececec;
+    width: auto;
+    height: 5px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
 
 
 
