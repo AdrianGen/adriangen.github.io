@@ -272,7 +272,7 @@ h5 {
 }
 
 .expertiseBlock {
-    border: 1px solid transparent; /*to be deleted later*/
+    border: 1px solid transparent;
     width: 320px;
     height: auto;
     margin: 0 auto;
@@ -327,6 +327,7 @@ h5 {
 /*Experience*/
 
 .experience {
+    border: 1px solid black; /*to be deleted later*/
     align-items: center;
     padding: 40px;
 }
