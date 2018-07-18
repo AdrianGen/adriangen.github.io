@@ -326,13 +326,13 @@ h5 {
 
 /*Experience*/
 
-.experience {
+.experience, .education {
     border: 1px solid black; /*to be deleted later*/
     align-items: center;
     padding: 40px;
 }
 
-.experienceWrapper {
+.experienceWrapper, .educationWrapper {
     border-left: 2px solid #ececec;
     padding-left: 25px;
     margin-left: calc(1rem - 2px);
@@ -350,13 +350,13 @@ h5 {
     top: -8px;
 }
 
-.jobBlock {
+.jobBlock, .educationBlock {
     border: 1px solid transparent;
-    width: 250px;
+    width: auto;
     padding-right: 40px;
 }
 
-.jobDate, .jobLocation {
+.jobDate, .jobLocation, .educationDate, .educationLocation {
     display: inline-block;
     vertical-align: top;
     font-family: 'Lato', sans-serif;
@@ -370,12 +370,12 @@ h5 {
 
 }
 
-.jobDate {
+.jobDate, .educationDate {
     position: relative;
     left: -15px;
 }
 
-.jobDescription {
+.jobDescription, .educationDescription {
 
 }
 
