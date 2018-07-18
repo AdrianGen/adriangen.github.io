@@ -235,15 +235,21 @@ h5 {
     font-weight: normal;
 }
 
-/*Contact Information*/
+/*Contact Details*/
 
-.col4 {
+.contactDetails {
     text-align: left;
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
     padding: 40px;
     border: 1px solid black; /*to be deleted later*/
+}
+
+.contactBlock {
+    display: block;
+    width: auto;
 }
 
 /*Left Bar*/
@@ -324,7 +330,7 @@ h5 {
     margin-bottom: 20px;
 }
 
-/*Experience*/
+/*Experience and Education*/
 
 .experience, .education {
     border: 1px solid black; /*to be deleted later*/
@@ -378,17 +384,6 @@ h5 {
 .jobDescription, .educationDescription {
 
 }
-
-
-    
-
-
-
-
-
-
-/*Education*/
-
 
 
 /* ==========================================================================
