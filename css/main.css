@@ -397,10 +397,11 @@ h5 {
 
 }
 
-/*Temporary border*/
+/*Temporary border to be deleted later.*/
 
 .container, .col, .col2, .bar, .barLeft, .contactDetails, .skills, .expertise, .experience, .education, .portfolio {
-    border: 1px solid black; /*to be deleted later*/;
+    /*border: 1px solid black;*/
+
 }
 
 
