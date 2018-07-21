@@ -103,29 +103,22 @@ body {
 }
 
 .container {
-    border: 1px solid black; /*to be deleted later*/;
+
 }
 
 .col {
     align-items: center;
     padding: 40px;
-    border: 1px solid black; /*to be deleted later*/
 }
 
 .col2 {
     align-items: center;
     padding: 40px;
-    border: 1px solid black; /*to be deleted later*/
 }
 
-.bar {
+.bar, .barLeft {
     align-items: center;
-    border: 1px solid black; /*to be deleted later*/
 }
-
-
-
-/*NEXT JOB TO DO: make sure that responsive layout is aligning everything in the middle on the mobile device */
 
 /*Profile/Header*/
 
@@ -244,7 +237,6 @@ h5 {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    border: 1px solid black; /*to be deleted later*/
 }
 
 .contactBlock {
@@ -274,7 +266,6 @@ h5 {
     padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid black;
 }
 
 .expertiseBlock {
@@ -318,7 +309,6 @@ h5 {
     padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 1px solid black;
 }
 
 .progressBar {
@@ -333,7 +323,6 @@ h5 {
 /*Experience and Education*/
 
 .experience, .education {
-    border: 1px solid black; /*to be deleted later*/
     align-items: center;
     padding: 40px;
 }
@@ -385,6 +374,56 @@ h5 {
 
 }
 
+/*Portfolio*/
+
+.portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.portfolioBlock {
+    border: 1px solid transparent;
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.portfolioContent {
+
+}
+
+/*Temporary border*/
+
+.container, .col, .col2, .bar, .barLeft, .contactDetails, .skills, .expertise, .experience, .education, .portfolio {
+    /*border: 1px solid black;*/ /*to be deleted later*/;
+}
+
+
+
+/*@Media*/
+
+@media (max-width: 576px) {
+    .contactDetails {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .colLeft {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .contactDetails {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 /* ==========================================================================
    Helper classes
