@@ -416,6 +416,10 @@ h5 {
     .colLeft {
         display: none;
     }
+
+    body {
+        margin-top: 0;
+    }
 }
 
 @media (max-width: 768px) {
