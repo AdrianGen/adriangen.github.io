@@ -181,6 +181,11 @@ ul a {
     border-radius: 3px;
 }
 
+ul a:hover {
+    background-color: #f8bb10;
+    border: 2px solid #939393;
+}
+
 a img {
     display: block;
     margin: 0 auto;
