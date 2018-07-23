@@ -182,8 +182,8 @@ ul a {
 }
 
 ul a:hover {
-    background-color: #f8bb10;
-    border: 2px solid #939393;
+    background-color: #fff;
+    border: 1px solid #f8bb10;
 }
 
 a img {
