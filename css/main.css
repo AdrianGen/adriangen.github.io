@@ -195,6 +195,11 @@ a img {
     opacity: 0.6;
 }
 
+a:link, a:visited, a:hover, a:active  {
+    text-decoration: none;
+    color: #727272;
+}
+
 /*Text*/
 p {
     display: block;
@@ -266,7 +271,6 @@ h5 {
 .expertise {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 20px;
@@ -282,6 +286,7 @@ h5 {
 
 .expertiseContent {
     margin-left: 35px;
+    height: auto;
 }
 
 .expertiseNumber {
@@ -391,7 +396,6 @@ h5 {
 .portfolio {
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
@@ -406,7 +410,7 @@ h5 {
 }
 
 .portfolioContent {
-
+    height: auto;
 }
 
 /*Temporary border to be deleted later.*/
@@ -431,6 +435,21 @@ h5 {
     body {
         margin-top: 0;
     }
+    
+    .profilepic {
+        width: 180px;
+        height: 180px;
+    }
+
+    .leftCol {
+        text-align: left;
+    }
+
+    .col {
+        border-top: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
+    }
+
 }
 
 @media (max-width: 768px) {
