@@ -173,12 +173,14 @@ li {
 }
 
 ul a {
-    display: block;
+    display: flex;
     text-align: center;
     height: 40px;
     width: 40px;
     background-color: #ededed;
     border-radius: 3px;
+    justify-content: center;
+    align-items: center;
 }
 
 ul a:hover {
@@ -189,7 +191,6 @@ ul a:hover {
 a img {
     display: block;
     margin: 0 auto;
-    margin-top: 25%;
     padding: 0;
     border: none;
     opacity: 0.6;
